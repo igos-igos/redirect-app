@@ -1,0 +1,19 @@
+{
+  "name": "store-redirect",
+  "version": "1.0.0",
+  "description": "Server for redirect users to mobile stores",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Igor Rybyakov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15"
+  }
+}
